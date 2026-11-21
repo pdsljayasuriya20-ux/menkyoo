@@ -1,0 +1,118 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Database configuration and credentials
+/config.php
+/includes/config.php
+/includes/auth-config.php
+
+# Database backups and dumps
+*.sql
+*.sql.gz
+*.dump
+*.sqlite
+*.db
+
+# Logs
+*.log
+error_log
+
+# Backups
+*.bak
+*.backup
+*.old
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Git
+.git
+
+# Archives
+*.zip
+*.tar
+*.gz
+
+# Database exports
+*.sql
+
+# Local visitor data
+visitor_logs.json
+visitor_count.txt
+
+# Debug and test files
+debug_check.php
+test.php
+
+# macOS archive metadata
+__MACOSX/
+
+# Local uploaded content - review before publishing
+/uploads/
+
+# Dependencies
+/vendor/
+
+# Archives and database backups
+*.zip
+*.tar
+*.sql
+*.sql.gz
+*.dump
+*.sqlite
+*.db
+
+# Sensitive configuration
+/config.php
+/includes/config.php
+/includes/auth-config.php
+
+# Visitor logs and local data
+visitor_logs.json
+visitor_count.txt
+
+# Debug and temporary files
+debug_check.php
+test.php
+__MACOSX/
+
+# macOS
+.DS_Store
+.AppleDouble
+/table.php
+
+# Additional sensitive and local files
+*.save
+.env
+.env.*
+!.env.example
+/table.php.save
+
+# Files excluded from public portfolio
+/dashboard.php
+/auto_categorize.php
+/login.php
+/register.php
+/reset-password.php
+/admin.php
+/table.php
+/includes/config.php
+/includes/auth-config.php
+/includes/mailer.php
+/api/send_otp.php
+/api/get_questions.php
+/api/get_user_progress.php
+/api/get_lessons.php
+/api/save_history.php
+/lessons/types_of_vehicles_allowed_to_drive.php
+/lessons/highway-speed-limit.php
+/lessons/no-parking.php
+/lessons/legal_speed_limits_for_cars_and_motorcycles.php
